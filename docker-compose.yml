@@ -1,0 +1,12 @@
+services:
+  node-red:
+    build: .
+    container_name: node-red
+    ports:
+      - "1880:1880"
+    volumes:
+      - ./data:/data
+    environment:
+      - TZ=Europe/Kyiv
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

@@ -1,0 +1,1380 @@
+[
+    {
+        "id": "984112cfb4acbe5e",
+        "type": "tab",
+        "label": "Mqtt-esp8266-xy-lx0a",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7c8e4d1fe7b51299",
+        "type": "mqtt-broker",
+        "name": "mqtt-broker",
+        "broker": "",
+        "port": "",
+        "tls": "",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "8e922222c236e1cd",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "04df5d525fd8e5d7",
+        "type": "ui_group",
+        "name": "XY-Lx0A",
+        "tab": "8e922222c236e1cd",
+        "order": 1,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3d225fee20533e59",
+        "type": "ui_group",
+        "name": "XY-Lx0A Control",
+        "tab": "8e922222c236e1cd",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f358cb8465b8385f",
+        "type": "ui_group",
+        "name": "Charts Left",
+        "tab": "8e922222c236e1cd",
+        "order": 5,
+        "disp": false,
+        "width": 15,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ff8a06421b427856",
+        "type": "ui_group",
+        "name": "Emergency Battery",
+        "tab": "8e922222c236e1cd",
+        "order": 4,
+        "disp": true,
+        "width": 17,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9813e1e545a8acaa",
+        "type": "ui_group",
+        "name": "Charts Right",
+        "tab": "8e922222c236e1cd",
+        "order": 6,
+        "disp": false,
+        "width": 15,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "99901c880adb762d",
+        "type": "ui_spacer",
+        "z": "984112cfb4acbe5e",
+        "name": "spacer",
+        "group": "04df5d525fd8e5d7",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4506aa80a57ec0d2",
+        "type": "ui_spacer",
+        "z": "984112cfb4acbe5e",
+        "name": "spacer",
+        "group": "04df5d525fd8e5d7",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d0ef8ef5d1d2bb7b",
+        "type": "ui_spacer",
+        "z": "984112cfb4acbe5e",
+        "name": "spacer",
+        "group": "04df5d525fd8e5d7",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "886a61e0811825ec",
+        "type": "ui_spacer",
+        "z": "984112cfb4acbe5e",
+        "name": "spacer",
+        "group": "04df5d525fd8e5d7",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "46013b125da35430",
+        "type": "ui_spacer",
+        "z": "984112cfb4acbe5e",
+        "name": "spacer",
+        "group": "3d225fee20533e59",
+        "order": 10,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "0a1c83cf2feaaa26",
+        "type": "ui_spacer",
+        "z": "984112cfb4acbe5e",
+        "name": "spacer",
+        "group": "3d225fee20533e59",
+        "order": 11,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "b819474d8f657f9d",
+        "type": "ui_spacer",
+        "z": "984112cfb4acbe5e",
+        "name": "spacer",
+        "group": "f358cb8465b8385f",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "adb520aee8fa196d",
+        "type": "ui_spacer",
+        "z": "984112cfb4acbe5e",
+        "name": "spacer",
+        "group": "f358cb8465b8385f",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f81f670651beff3d",
+        "type": "ui_spacer",
+        "z": "984112cfb4acbe5e",
+        "name": "spacer",
+        "group": "f358cb8465b8385f",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "12397ceb12eebc30",
+        "type": "ui_spacer",
+        "z": "984112cfb4acbe5e",
+        "name": "spacer",
+        "group": "f358cb8465b8385f",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "30db091cb0f7208c",
+        "type": "ui_spacer",
+        "z": "984112cfb4acbe5e",
+        "name": "spacer",
+        "group": "f358cb8465b8385f",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "14c9f3f14f10cde9",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#333333",
+                "baseFont": "Arial,Arial,Helvetica,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#333333",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#595959",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Arial,Arial,Helvetica,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "9e1056d0fb6ab6f7",
+        "type": "ui_text",
+        "z": "984112cfb4acbe5e",
+        "group": "04df5d525fd8e5d7",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "DW",
+        "format": "{{msg.payload.params.dw}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 890,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "83ce6ebd27744e05",
+        "type": "ui_gauge",
+        "z": "984112cfb4acbe5e",
+        "name": "",
+        "group": "04df5d525fd8e5d7",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Voltage",
+        "label": "Volts",
+        "format": "{{msg.payload.voltage}}",
+        "min": "10",
+        "max": "13.7",
+        "colors": [
+            "#ca3838",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 900,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "5a90daf2816cdc8a",
+        "type": "ui_text",
+        "z": "984112cfb4acbe5e",
+        "group": "04df5d525fd8e5d7",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "UP",
+        "format": "{{msg.payload.params.up}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 890,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "f3b1d8ff01e9685b",
+        "type": "ui_text",
+        "z": "984112cfb4acbe5e",
+        "group": "04df5d525fd8e5d7",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Timer",
+        "format": "{{msg.payload.params.timer}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 890,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "f5a06e123e44a0c2",
+        "type": "ui_button",
+        "z": "984112cfb4acbe5e",
+        "name": "",
+        "group": "3d225fee20533e59",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "label": "Read",
+        "tooltip": "Read the device settings",
+        "color": "",
+        "bgcolor": "#2196f3",
+        "className": "",
+        "icon": "",
+        "payload": "{ \"action\": \"uart_send\", \"receiver\": \"esp8266XYL30A\", \"value\": \"read\" }",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1150,
+        "y": 380,
+        "wires": [
+            [
+                "da4e12c5175acfb7"
+            ]
+        ]
+    },
+    {
+        "id": "82607d4901f77e14",
+        "type": "ui_button",
+        "z": "984112cfb4acbe5e",
+        "name": "",
+        "group": "3d225fee20533e59",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Start",
+        "tooltip": "It start data stream (to this interface)",
+        "color": "",
+        "bgcolor": "#00B500",
+        "className": "",
+        "icon": "",
+        "payload": "{ \"action\": \"uart_send\", \"receiver\": \"esp8266XYL30A\", \"value\": \"start\" }",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1150,
+        "y": 260,
+        "wires": [
+            [
+                "da4e12c5175acfb7"
+            ]
+        ]
+    },
+    {
+        "id": "5cfaebea735fb4c1",
+        "type": "ui_button",
+        "z": "984112cfb4acbe5e",
+        "name": "",
+        "group": "3d225fee20533e59",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Stop",
+        "tooltip": "It stop data stream (to this interface)",
+        "color": "",
+        "bgcolor": "#CA3838",
+        "className": "",
+        "icon": "",
+        "payload": "{ \"action\": \"uart_send\", \"receiver\": \"esp8266XYL30A\", \"value\": \"stop\" }",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1150,
+        "y": 300,
+        "wires": [
+            [
+                "da4e12c5175acfb7"
+            ]
+        ]
+    },
+    {
+        "id": "1c366dc3804eaca6",
+        "type": "ui_button",
+        "z": "984112cfb4acbe5e",
+        "name": "",
+        "group": "3d225fee20533e59",
+        "order": 6,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "On",
+        "tooltip": "It option enable UP/DOWD logic ",
+        "color": "",
+        "bgcolor": "#00B500",
+        "className": "",
+        "icon": "",
+        "payload": "{ \"action\": \"uart_send\", \"receiver\": \"esp8266XYL30A\", \"value\": \"on\" }",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1150,
+        "y": 180,
+        "wires": [
+            [
+                "da4e12c5175acfb7"
+            ]
+        ]
+    },
+    {
+        "id": "a6812df4418c7fef",
+        "type": "ui_button",
+        "z": "984112cfb4acbe5e",
+        "name": "",
+        "group": "3d225fee20533e59",
+        "order": 7,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Off",
+        "tooltip": "Disables automatic UP/DOWN control: charging will not start even if voltage falls below the DW threshold.",
+        "color": "",
+        "bgcolor": "#CA3838",
+        "className": "",
+        "icon": "",
+        "payload": "{ \"action\": \"uart_send\", \"receiver\": \"esp8266XYL30A\", \"value\": \"off\" }",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1150,
+        "y": 220,
+        "wires": [
+            [
+                "da4e12c5175acfb7"
+            ]
+        ]
+    },
+    {
+        "id": "aadda1c5ea6158a2",
+        "type": "template",
+        "z": "984112cfb4acbe5e",
+        "name": "UP",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{ \"action\": \"uart_send\", \"value\": \"up{{payload}}\",\"receiver\": \"esp8266XYL30A\" }",
+        "output": "str",
+        "x": 1310,
+        "y": 560,
+        "wires": [
+            [
+                "da4e12c5175acfb7"
+            ]
+        ]
+    },
+    {
+        "id": "fe8b18d833e68468",
+        "type": "function",
+        "z": "984112cfb4acbe5e",
+        "name": "function 4",
+        "func": "\nmsg.payload.params.up = Number(msg.payload.params.up);\nmsg.payload.params.dw = Number(msg.payload.params.dw);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 560,
+        "wires": [
+            [
+                "2e8b0084661cff82",
+                "8c0ea84caaf8d3f9",
+                "fa1dc01d7d50f2d2"
+            ]
+        ]
+    },
+    {
+        "id": "2e8b0084661cff82",
+        "type": "ui_template",
+        "z": "984112cfb4acbe5e",
+        "group": "3d225fee20533e59",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n  .pretty-input-container {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    font-family: Roboto, sans-serif;\n    gap: 12px;\n  }\n\n  .pretty-label {\n    font-weight: bold;\n    min-width: 50px;\n  }\n\n  .spinner-controls {\n    display: flex;\n    align-items: center;\n    gap: 6px;\n  }\n\n  .spinner-button {\n    font-size: 18px;\n    padding: 4px 10px;   \n    color: white;\n    border: none;\n    border-radius: 4px;\n    cursor: pointer;\n    line-height: 1;\n    margin: 0!important;\n  }\n\n  .pretty-input {\n    padding: 6px 12px;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n    font-size: 16px;\n    transition: border-color 0.3s;\n    outline: none;\n    width: 100px;\n    text-align: center;\n  }\n\n  .spinner-button .material-icons {\n  font-size: 24px;\n  color: #eee;\n  vertical-align: middle;\n}\n\n</style>\n\n<script>\n  (function(scope) {\n  scope.inputValue = null;\n\n  scope.$watch('msg.payload', function(payload) {\n    if (payload?.params?.up !== undefined) {\n      scope.inputValue = payload.params.up;\n    }\n  });\n\n  scope.increment = function() {\n    scope.inputValue = Math.min(Number((scope.inputValue + 0.1).toFixed(2)), 20);\n    scope.onChange();\n  };\n\n  scope.decrement = function() {\n    scope.inputValue = Math.max(Number((scope.inputValue - 0.1).toFixed(2)), 10);\n    scope.onChange();\n  };\n\n  scope.onChange = function() {\n    scope.send({payload: scope.inputValue});\n  };\n})(scope);\n</script>\n\n<div class=\"pretty-input-container\">\n  <label class=\"pretty-label\">UP:</label>\n  <div class=\"spinner-controls\">\n    <md-button class=\"spinner-button\" ng-click=\"decrement()\" aria-label=\"decrement\">\n      <md-icon class=\"material-icons\">expand_more</md-icon>\n    </md-button>\n    <input type=\"number\"\n           class=\"pretty-input\"\n           ng-model=\"inputValue\"\n           ng-change=\"onChange()\"\n           step=\"0.1\"\n           min=\"10\"\n           max=\"20\" />\n\n    <md-button class=\"spinner-button\" ng-click=\"increment()\" aria-label=\"increment\">\n      <md-icon class=\"material-icons\">expand_less</md-icon>\n    </md-button>\n  </div>\n</div>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1140,
+        "y": 560,
+        "wires": [
+            [
+                "aadda1c5ea6158a2"
+            ]
+        ]
+    },
+    {
+        "id": "8c0ea84caaf8d3f9",
+        "type": "ui_template",
+        "z": "984112cfb4acbe5e",
+        "group": "3d225fee20533e59",
+        "name": "",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n  .pretty-input-container {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    font-family: Roboto, sans-serif;\n    gap: 12px;\n  }\n\n  .pretty-label {\n    font-weight: bold;\n    min-width: 50px;\n  }\n\n  .spinner-controls {\n    display: flex;\n    align-items: center;\n    gap: 6px;\n  }\n\n  .spinner-button {\n    font-size: 18px;\n    padding: 4px 10px;   \n    color: white;\n    border: none;\n    border-radius: 4px;\n    cursor: pointer;\n    line-height: 1;\n    margin: 0!important;\n  }\n\n  .pretty-input {\n    padding: 6px 12px;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n    font-size: 16px;\n    transition: border-color 0.3s;\n    outline: none;\n    width: 100px;\n    text-align: center;\n  }\n\n  .spinner-button .material-icons {\n  font-size: 24px;\n  color: #eee;\n  vertical-align: middle;\n}\n\n</style>\n\n<script>\n  (function(scope) {\n  scope.inputValue = null;\n\n  scope.$watch('msg.payload', function(payload) {\n    if (payload?.params?.up !== undefined) {\n      scope.inputValue = payload.params.dw;\n    }\n  });\n\n  scope.increment = function() {\n    scope.inputValue = Math.min(Number((scope.inputValue + 0.1).toFixed(2)), 20);\n    scope.onChange();\n  };\n\n  scope.decrement = function() {\n    scope.inputValue = Math.max(Number((scope.inputValue - 0.1).toFixed(2)), 10);\n    scope.onChange();\n  };\n\n  scope.onChange = function() {\n    scope.send({payload: scope.inputValue});\n  };\n})(scope);\n</script>\n\n<div class=\"pretty-input-container\">\n  <label class=\"pretty-label\">DW:</label>\n  <div class=\"spinner-controls\">\n    <md-button class=\"spinner-button\" ng-click=\"decrement()\" aria-label=\"decrement\">\n      <md-icon class=\"material-icons\">expand_more</md-icon>\n    </md-button>\n    <input type=\"number\"\n           class=\"pretty-input\"\n           ng-model=\"inputValue\"\n           ng-change=\"onChange()\"\n           step=\"0.1\"\n           min=\"10\"\n           max=\"20\" />\n\n    <md-button class=\"spinner-button\" ng-click=\"increment()\" aria-label=\"increment\">\n      <md-icon class=\"material-icons\">expand_less</md-icon>\n    </md-button>\n  </div>\n</div>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1140,
+        "y": 600,
+        "wires": [
+            [
+                "815b3496828d3206"
+            ]
+        ]
+    },
+    {
+        "id": "815b3496828d3206",
+        "type": "template",
+        "z": "984112cfb4acbe5e",
+        "name": "DW",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{ \"action\": \"uart_send\", \"value\": \"dw{{payload}}\",\"receiver\": \"esp8266XYL30A\" }",
+        "output": "str",
+        "x": 1310,
+        "y": 600,
+        "wires": [
+            [
+                "da4e12c5175acfb7"
+            ]
+        ]
+    },
+    {
+        "id": "17a63c6693ca0235",
+        "type": "ui_chart",
+        "z": "984112cfb4acbe5e",
+        "name": "",
+        "group": "f358cb8465b8385f",
+        "order": 1,
+        "width": 14,
+        "height": 5,
+        "label": "Dynamic Voltage",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "2",
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#12a810",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1410,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5a7bb69cb7b54788",
+        "type": "function",
+        "z": "984112cfb4acbe5e",
+        "name": "function 6",
+        "func": "\nreturn {\n    payload: msg.payload.voltage\n};\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 1060,
+        "wires": [
+            [
+                "24181e1bdeb7f9ad",
+                "2fcbb395312f5d98"
+            ]
+        ]
+    },
+    {
+        "id": "4b5eccd69d0e03ba",
+        "type": "function",
+        "z": "984112cfb4acbe5e",
+        "name": "function 7",
+        "func": "\n\nconst payload = {\n    text: \"It`s Not Charging\",\n    cls: \"xyl30a xyl30a-off\",\n    state: 'off',\n};\n\nif (msg.payload.state == \"OP\"){\n    payload.text = \"Charge in progress \" ;\n    payload.cls = \"xyl30a xyl30a-on\" \n    payload.state = 'on' \n}\n\nreturn { payload };",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 960,
+        "wires": [
+            [
+                "4db1745a55547dcf"
+            ]
+        ]
+    },
+    {
+        "id": "4db1745a55547dcf",
+        "type": "ui_template",
+        "z": "984112cfb4acbe5e",
+        "group": "04df5d525fd8e5d7",
+        "name": "ESP-NETWORK-STATE",
+        "order": 10,
+        "width": 5,
+        "height": 2,
+        "format": "<script>\n    (function(scope) {\n  scope.displayText = \"No info.\";\n  scope.className = \"xyl30a xyl30a-no-info\";\n  scope.iconClassName = '';\n\n\n  scope.$watch('msg.payload', function(payload) {\n    if (payload?.text !== undefined) {\n      scope.displayText = payload.text;\n      scope.className = payload.cls || \"\";\n      scope.iconClassName = payload.state == 'on' ? \"icon-bolt\":\"hidden\";\n    }\n  });\n})(scope);\n</script>\n\n<div ng-class=\"className\">  \n    <div>{{displayText}}</div>\n    <div ng-class=\"iconClassName\">⚡</div>    \n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1110,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "24b10b29ca225d39",
+        "type": "ui_template",
+        "z": "984112cfb4acbe5e",
+        "group": "",
+        "name": "GlobalStyle",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n     .xyl30a svg circle, .xyl30a svg path {\n        fill: #2196F3 !important;\n    }\n    .xyl30a svg text {\n        fill: #fff !important;\n    }\n\n  .xyl30a {\n        text-align: center;\n        vertical-align: middle;\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n        border-radius: 30px;\n        flex: 1;\n  }\n\n    .xyl30a-off {\n    background-color: #111111;\n    }\n    .xyl30a-on {\n    background-color: #5f0000;\n    }\n    .xyl30a-no-info {\n    background-color: gray;\n    }\n\n    .icon-bolt {\n      font-size: 40px;\n      animation: battery-bolt 2s linear infinite;\n      text-shadow: 0px 1px 1px #000000;\n      text-align: center;\n    }\n\n    .hidden {\n      display: none;\n    }\n    \n    /* Battery bolt icon animation */\n@keyframes battery-bolt {\n  50% {\n    transform: scale(1.4);\n  }\n  100% {\n    transform: scale(1);\n  }\n}\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 390,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "96de5ded7880d13b",
+        "type": "mqtt in",
+        "z": "984112cfb4acbe5e",
+        "name": "",
+        "topic": "esp/config",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "7c8e4d1fe7b51299",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 680,
+        "y": 560,
+        "wires": [
+            [
+                "fe8b18d833e68468",
+                "9e1056d0fb6ab6f7",
+                "5a90daf2816cdc8a",
+                "f3b1d8ff01e9685b",
+                "58e7322d37cfd0de"
+            ]
+        ]
+    },
+    {
+        "id": "fa1dc01d7d50f2d2",
+        "type": "ui_template",
+        "z": "984112cfb4acbe5e",
+        "group": "3d225fee20533e59",
+        "name": "Timer Template",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n  .pretty-input-container {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    font-family: Roboto, sans-serif;\n    gap: 12px;\n  }\n\n  .pretty-label {\n    font-weight: bold;\n    min-width: 50px;\n  }\n\n  .spinner-controls {\n    display: flex;\n    align-items: center;\n    gap: 6px;\n  }\n\n\ninput[type=\"time\"]::-webkit-calendar-picker-indicator {\nopacity: 0; /* скрыть стандартную иконку */\nposition: relative;\nz-index: 1;\n}\n\ninput[type=\"time\"] {\nposition: relative;\n}\n\ninput[type=\"time\"]::after {\ncontent: \"⏱\"; /* U+23F1 */\nposition: absolute;\nright: 10px;\ntop: 50%;\ntransform: translateY(-50%);\npointer-events: none;\nfont-size: 1.2em;\ncolor: #555;\n}\n\n  .pretty-input-timer {\n    padding: 6px 12px;\n    border-radius: 4px;\n    font-size: 16px;\n    outline: none;\n    width: 100px;\n    text-align: center;\n    margin-right: 3rem;\n  }\n\n  .spinner-button .material-icons {\n  font-size: 24px;\n  color: #eee;\n  vertical-align: middle;\n}\n\n</style>\n\n<script>\n  (function(scope) {\n  scope.inputValue = null;\n\n  scope.$watch('msg.payload', function(payload) {\n    if (payload?.params?.up !== undefined) {\n      scope.inputValue = payload.params.timer;\n    }\n  });\n  scope.onChange = function() {\n    scope.send({payload:\n    JSON.stringify({ \"action\": \"uart_send\", \"receiver\": \"esp8266XYL30A\", \"value\": `${scope.inputValue.getHours()}:${scope.inputValue.getMinutes()}` })\n     \n     });\n  };\n})(scope);\n</script>\n\n<div class=\"pretty-input-container\">\n  <label class=\"pretty-label\">Timer:</label>\n  <div class=\"spinner-controls\">\n    <input type=\"time\"\n           class=\"pretty-input-timer\"\n           ng-model=\"inputValue\"\n           ng-change=\"onChange()\"  />\n  </div>\n</div>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1160,
+        "y": 520,
+        "wires": [
+            [
+                "da4e12c5175acfb7"
+            ]
+        ]
+    },
+    {
+        "id": "15b9bbca832111e6",
+        "type": "mqtt in",
+        "z": "984112cfb4acbe5e",
+        "name": "",
+        "topic": "esp/data",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "7c8e4d1fe7b51299",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 660,
+        "y": 1000,
+        "wires": [
+            [
+                "83ce6ebd27744e05",
+                "5a7bb69cb7b54788",
+                "4b5eccd69d0e03ba",
+                "cb744c752e83c2a3"
+            ]
+        ]
+    },
+    {
+        "id": "da4e12c5175acfb7",
+        "type": "mqtt out",
+        "z": "984112cfb4acbe5e",
+        "name": "",
+        "topic": "device/command",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "7c8e4d1fe7b51299",
+        "x": 1650,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "83320cd77fe4e014",
+        "type": "ui_button",
+        "z": "984112cfb4acbe5e",
+        "name": "",
+        "group": "3d225fee20533e59",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "label": "Blink 50 (test)",
+        "tooltip": "It will blink  led diode of wifi module (50 times) ",
+        "color": "",
+        "bgcolor": "#2196f3",
+        "className": "",
+        "icon": "",
+        "payload": "{ \"action\": \"blink\", \"receiver\": \"esp8266XYL30A\", \"value\": \"50\" }",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1180,
+        "y": 420,
+        "wires": [
+            [
+                "da4e12c5175acfb7"
+            ]
+        ]
+    },
+    {
+        "id": "6171b516f4f60ec9",
+        "type": "ui_button",
+        "z": "984112cfb4acbe5e",
+        "name": "",
+        "group": "3d225fee20533e59",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "label": "Reset WIFI",
+        "tooltip": "Attantion !!! It will reset wifi settings in the module",
+        "color": "",
+        "bgcolor": "#2196f3",
+        "className": "",
+        "icon": "",
+        "payload": "{ \"action\": \"reset_wifi\", \"receiver\": \"esp8266XYL30A\", \"value\": \"50\" }",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1170,
+        "y": 340,
+        "wires": [
+            [
+                "da4e12c5175acfb7"
+            ]
+        ]
+    },
+    {
+        "id": "7e44670cfaca3b7b",
+        "type": "inject",
+        "z": "984112cfb4acbe5e",
+        "name": "Read each 30 sec.",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "30",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{ \"action\": \"uart_send\", \"receiver\": \"esp8266XYL30A\", \"value\": \"read\" }",
+        "payloadType": "str",
+        "x": 1200,
+        "y": 120,
+        "wires": [
+            [
+                "da4e12c5175acfb7"
+            ]
+        ]
+    },
+    {
+        "id": "24181e1bdeb7f9ad",
+        "type": "function",
+        "z": "984112cfb4acbe5e",
+        "name": "real percentage",
+        "func": "\nconst voltage = parseFloat(msg.payload);\nconst minVoltage = 11.5;\nconst maxVoltage = 13;\n\nlet percent = 0;\n\nif (voltage <= minVoltage) {\n    percent = 0;\n} else if (voltage >= maxVoltage) {\n    percent = 100;\n} else {\n    percent = Math.round(((voltage - minVoltage) / (maxVoltage - minVoltage)) * 100);\n}\n\nreturn {\n    payload: Number(percent.toFixed(2)),\n\n};\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1160,
+        "y": 1060,
+        "wires": [
+            [
+                "8d4597fcf05bdc4a",
+                "4b1e5c6bba28c8a0",
+                "9f916df3f6cfa4a7"
+            ]
+        ]
+    },
+    {
+        "id": "8d4597fcf05bdc4a",
+        "type": "debug",
+        "z": "984112cfb4acbe5e",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1400,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "4b1e5c6bba28c8a0",
+        "type": "ui_gauge",
+        "z": "984112cfb4acbe5e",
+        "name": "",
+        "group": "ff8a06421b427856",
+        "order": 1,
+        "width": 17,
+        "height": "5",
+        "gtype": "gage",
+        "title": "Battery State",
+        "label": "%",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ca3838",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "0",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1410,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "5ac96d96ef04b468",
+        "type": "debug",
+        "z": "984112cfb4acbe5e",
+        "name": "debug 4",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "2fcbb395312f5d98",
+        "type": "rbe",
+        "z": "984112cfb4acbe5e",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1190,
+        "y": 1160,
+        "wires": [
+            [
+                "17a63c6693ca0235",
+                "5ac96d96ef04b468"
+            ]
+        ]
+    },
+    {
+        "id": "58e7322d37cfd0de",
+        "type": "debug",
+        "z": "984112cfb4acbe5e",
+        "name": "debug 5",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "cb744c752e83c2a3",
+        "type": "debug",
+        "z": "984112cfb4acbe5e",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "mqtt_in_status",
+        "type": "mqtt in",
+        "z": "984112cfb4acbe5e",
+        "name": "ESP статус",
+        "topic": "device/status",
+        "qos": "1",
+        "datatype": "json",
+        "broker": "7c8e4d1fe7b51299",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 670,
+        "y": 1380,
+        "wires": [
+            [
+                "function_status",
+                "debug_status"
+            ]
+        ]
+    },
+    {
+        "id": "function_status",
+        "type": "function",
+        "z": "984112cfb4acbe5e",
+        "name": "Формат статуса",
+        "func": "let status = msg.payload.status;\n\nconst newPayload = {\n    text: \"🔴 Device offline\",\n    rssi: null,\n    uptime: null,\n    device_id: null,\n    ip: null,\n}\n\nmsg.color = \"red\";\n\nif (status === \"online\") {\n    newPayload.text = `🟢 is online`;\n    newPayload.rssi = msg.payload.rssi;\n    newPayload.uptime = msg.payload.uptime;\n    newPayload.device_id = msg.payload.device_id;\n    newPayload.ip = msg.payload.ip;\n    msg.color = \"green\";\n}\n\nmsg.payload = newPayload;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 1380,
+        "wires": [
+            [
+                "ui_text_status",
+                "f544bcb570e4791a",
+                "3ddc4cac1c049808",
+                "6e3e1daec4b0fe62",
+                "b02cf906d02de176"
+            ]
+        ]
+    },
+    {
+        "id": "ui_text_status",
+        "type": "ui_text",
+        "z": "984112cfb4acbe5e",
+        "group": "04df5d525fd8e5d7",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "name": "Статус ESP",
+        "label": "{{msg.payload.device_id}}",
+        "format": "{{msg.payload.text}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 1210,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "debug_status",
+        "type": "debug",
+        "z": "984112cfb4acbe5e",
+        "name": "Отладка статуса",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "f544bcb570e4791a",
+        "type": "ui_text",
+        "z": "984112cfb4acbe5e",
+        "group": "04df5d525fd8e5d7",
+        "order": 7,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Local IP:",
+        "format": "{{msg.payload.ip}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1200,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "3ddc4cac1c049808",
+        "type": "ui_text",
+        "z": "984112cfb4acbe5e",
+        "group": "04df5d525fd8e5d7",
+        "order": 6,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "Uptime",
+        "format": "{{msg.payload.uptime}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1200,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "6e3e1daec4b0fe62",
+        "type": "ui_template",
+        "z": "984112cfb4acbe5e",
+        "group": "04df5d525fd8e5d7",
+        "name": "",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "format": "<div>\n   <span style=\"vertical-align: super;\">RSSI: {{msg.payload.rssi}} dBm</span>\n\n<svg viewBox=\"0 0 64 64\" width=\"32\" height=\"32\" style=\"display:inline-block;\">\n  <!-- Центральная точка -->\n  <circle cx=\"32\" cy=\"54\" r=\"3\"\n          fill=\"{{getDotFill(msg.payload.rssi)}}\" stroke=\"{{getColor(msg.payload.rssi)}}\" stroke-width=\"1\" />\n\n  <!-- Первая дуга -->\n  <path d=\"M24 46 A16 16 0 0 1 40 46\"\n        stroke=\"{{getColor(msg.payload.rssi)}}\"\n        stroke-width=\"4\" fill=\"none\"\n        opacity=\"{{getLevel(msg.payload.rssi) >= 2 ? 1 : 0.2}}\" />\n\n  <!-- Вторая дуга -->\n  <path d=\"M16 38 A24 24 0 0 1 48 38\"\n        stroke=\"{{getColor(msg.payload.rssi)}}\"\n        stroke-width=\"4\" fill=\"none\"\n        opacity=\"{{getLevel(msg.payload.rssi) >= 3 ? 1 : 0.2}}\" />\n\n  <!-- Третья дуга -->\n  <path d=\"M8 30 A32 32 0 0 1 56 30\"\n        stroke=\"{{getColor(msg.payload.rssi)}}\"\n        stroke-width=\"4\" fill=\"none\"\n        opacity=\"{{getLevel(msg.payload.rssi) >= 4 ? 1 : 0.2}}\" />\n</svg>\n\n   \n</div>\n\n<script>\n(function(scope) {\n  scope.getLevel = function(rssiStr) {\n    let rssi = parseInt(rssiStr);\n    if (isNaN(rssi)) return 0;\n    if (rssi >= -50) return 4;\n    if (rssi >= -60) return 3;\n    if (rssi >= -70) return 2;\n    if (rssi >= -80) return 1;\n    return 0;\n  };\n\n  scope.getColor = function(rssiStr) {\n    let rssi = parseInt(rssiStr);\n    if (isNaN(rssi)) return '#666';\n    if (rssi >= -60) return 'limegreen';\n    if (rssi >= -75) return 'orange';\n    return 'red';\n  };\n\n  scope.getDotFill = function(rssiStr) {\n    return scope.getLevel(rssiStr) >= 1 ? scope.getColor(rssiStr) : 'none';\n  };\n})(scope);\n</script>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1200,
+        "y": 1360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8c432a7cdf4d1cab",
+        "type": "ui_chart",
+        "z": "984112cfb4acbe5e",
+        "name": "",
+        "group": "9813e1e545a8acaa",
+        "order": 1,
+        "width": 15,
+        "height": 5,
+        "label": "Dynamic RSSI",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "2",
+        "removeOlderPoints": "50",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#658afb",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1460,
+        "y": 1560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b02cf906d02de176",
+        "type": "function",
+        "z": "984112cfb4acbe5e",
+        "name": "rssi",
+        "func": "\nreturn {\n   payload: msg.payload.rssi\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1190,
+        "y": 1560,
+        "wires": [
+            [
+                "c57c77a5c8fe2718"
+            ]
+        ]
+    },
+    {
+        "id": "068cfe1b8138dfd8",
+        "type": "ui_chart",
+        "z": "984112cfb4acbe5e",
+        "name": "",
+        "group": "ff8a06421b427856",
+        "order": 1,
+        "width": "17",
+        "height": 5,
+        "label": "Dynamic Battery State",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "2",
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#c800ff",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1600,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9f916df3f6cfa4a7",
+        "type": "rbe",
+        "z": "984112cfb4acbe5e",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1390,
+        "y": 980,
+        "wires": [
+            [
+                "068cfe1b8138dfd8"
+            ]
+        ]
+    },
+    {
+        "id": "c57c77a5c8fe2718",
+        "type": "rbe",
+        "z": "984112cfb4acbe5e",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1190,
+        "y": 1620,
+        "wires": [
+            [
+                "8c432a7cdf4d1cab"
+            ]
+        ]
+    }
+]
