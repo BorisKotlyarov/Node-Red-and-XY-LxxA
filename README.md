@@ -1,5 +1,6 @@
 # Node-Red + MQTT + XY-LxxA module flow
 
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 ![](assets/XY-LxxA-dashboard.png)
 Youtube link (comming soon)
 
@@ -57,3 +58,11 @@ Dashboard credentials:
 user
 password
 ```
+
+### Acknowledgements
+
+This project uses [Node-RED](https://nodered.org/), which is copyright of the OpenJS Foundation and other contributors and is licensed under the Apache 2.0 license. More information about the foundation can be found at [https://openjsf.org/](https://openjsf.org/).
+
+## License
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
